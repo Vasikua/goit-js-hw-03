@@ -1,3 +1,7 @@
+'use strict';
+
+
+
 function makeArray(firstArray, secondArray, maxLength) {
     let finalArray = firstArray.concat(secondArray);
     if (finalArray.length > maxLength) {

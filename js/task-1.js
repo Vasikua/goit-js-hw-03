@@ -1,3 +1,6 @@
+'use strict';
+
+
 function slugify(title) {
     let arrays = title.toLowerCase().split(" ").join("-");
     return arrays;
